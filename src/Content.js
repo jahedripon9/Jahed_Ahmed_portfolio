@@ -163,25 +163,25 @@ export const content = {
     testimonials_content: [
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Working with the MERN stack was seamless. The website is fast, responsive and easy to use. Would definitely recommend!”",
         img: avatar1,
         name: "JOHN DOE",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Great job on the MERN Stack project! The team was communicative, responsive, and delivered a high-quality product on time.”",
         img: avatar2,
         name: "Tom Alex",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“I'm impressed with the MERN Stack application you developed for my business. It's scalable, user-friendly and has exceeded my expectations. Thank you!”",
         img: avatar3,
         name: "Johnny",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“I couldn't be happier with the MERN Stack project. The developers were skilled, professional, and went above and beyond to meet my needs. Highly recommend!”",
         img: avatar4,
         name: "ROBBIN",
       },
