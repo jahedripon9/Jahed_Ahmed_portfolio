@@ -79,35 +79,40 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
+        name: "JavaScript",
+        para: "Web programming language for interactivity.",
+        logo: python,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        name: "MongoDB",
+        para: "NoSQL database for modern applications.",
+        logo: sketch,
       },
       {
         name: "Express js",
-        para: "Lorem ipsum text  dummy",
+        para: "Node.js web application framework.",
         logo: ps,
       },
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "JavaScript library for building interfaces.",
         logo: reactjs,
       },
       {
-        name: "MongoDB",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "Node js",
+        para: "JavaScript runtime for server-side.",
+        logo: nodejs,
       },
       {
-        name: "JavaScript",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        name: "Figma",
+        para: "Design tool for collaborative wireframing.",
+        logo: figma,
       },
+      
+      
+      
+      
+      
     ],
     icon: MdArrowForward,
   },
