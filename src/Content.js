@@ -15,6 +15,13 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
+import project4 from "./assets/images/projects/img4.png";
+import project5 from "./assets/images/projects/img5.png";
+import project6 from "./assets/images/projects/img6.png";
+import project7 from "./assets/images/projects/img7.png";
+import project8 from "./assets/images/projects/img8.png";
+import project9 from "./assets/images/projects/img9.png";
+import project10 from "./assets/images/projects/img10.png";
 import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -145,15 +152,54 @@ export const content = {
       {
         title: "DJI Official Demo Site",
         image: project1,
-        link: 'https://dji-official-website.web.app/',
+        link: "https://dji-official-website.web.app/",
       },
       {
         title: "Food Wagon",
         image: project2,
+        link: 'https://food-wagon-2b794.web.app/',
+
       },
       {
         title: "Ibn Sina Hospital Limited",
         image: project3,
+        link: 'https://ibn-sina-hospital-limited.web.app/',
+
+      },
+      {
+        title: "HOMELY",
+        image: project4,
+        link: 'https://homely-rouge.vercel.app/',
+      },
+      {
+        title: "Doctor's Help Portal",
+        image: project5,
+        link: 'https://doctors-help-protal-client.vercel.app/',
+      },
+      {
+        title: "Islamic Quiz",
+        image: project6,
+        link: 'https://islamic-quiz-brown.vercel.app/',
+      },
+      {
+        title: "HaiDoc",
+        image: project7,
+        link: 'https://hai-doc.vercel.app/',
+      },
+      {
+        title: "To-Do List",
+        image: project8,
+        link: 'https://task-app-kappa.vercel.app/',
+      },
+      {
+        title: "Edu Care",
+        image: project9,
+        link: 'https://edu-care-three.vercel.app/',
+      },
+      {
+        title: "Edu Care",
+        image: project10,
+        link: 'https://bistro-boss-client-alpha.vercel.app/',
       },
     ],
   },

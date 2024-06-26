@@ -36,7 +36,7 @@ const Projects = () => {
             data-aos="fade-left"
             spaceBetween={20}
             modules={[Pagination]}
-            className="rounded-3xl pb-16 max-w-xs drop-shadow-primary self-start"
+            className="rounded-3xl pb-16 max-w-xs sm:max-w-md drop-shadow-primary self-start"
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide
@@ -46,9 +46,11 @@ const Projects = () => {
                 <img src={content.image} alt="..." />
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <button className="font-bold text-gray self-end">
-                    READ MORE
-                  </button>
+                  <a href={content.link} target="_blank" className="self-end">
+                    <button className="font-bold text-gray">
+                      READ MORE
+                    </button>
+                  </a>
                 </div>
               </SwiperSlide>
             ))}
