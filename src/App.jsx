@@ -1,13 +1,13 @@
 // import components
-import Hero from "./components/Hero";
-import Navbar from "./Layouts/Navbar";
-import Skills from "./components/Skills";
-import Service from "./components/Services";
-import Projects from "./components/Projects";
-import Testimonials from "./components/Testimonials";
-import Hireme from "./components/Hireme";
-import Contact from "./components/Contact";
 import { useEffect } from "react";
+import Navbar from "./Layouts/Navbar";
+import Contact from "./components/Contact";
+import Hero from "./components/Hero";
+import Hireme from "./components/Hireme";
+import Projects from "./components/Projects";
+import Service from "./components/Services";
+import Skills from "./components/Skills";
+import Testimonials from "./components/Testimonials";
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";

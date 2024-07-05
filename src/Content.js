@@ -2,11 +2,11 @@
 import Hero_person from "./assets/images/Hero/person.png";
 
 import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
-import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
+import ps from "./assets/images/Skills/ps.png";
 import python from "./assets/images/Skills/python.png";
+import reactjs from "./assets/images/Skills/react.png";
+import sketch from "./assets/images/Skills/sketch.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -17,11 +17,11 @@ import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
 import project4 from "./assets/images/projects/img4.png";
 import project5 from "./assets/images/projects/img5.png";
-import project6 from "./assets/images/projects/img6.png";
+// import project6 from "./assets/images/projects/img6.png";
+import project10 from "./assets/images/projects/img10.png";
 import project7 from "./assets/images/projects/img7.png";
 import project8 from "./assets/images/projects/img8.png";
 import project9 from "./assets/images/projects/img9.png";
-import project10 from "./assets/images/projects/img10.png";
 import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -33,13 +33,12 @@ import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
-import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsLinkedin } from "react-icons/bs";
-import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
-import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
-import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { BsLinkedin } from "react-icons/bs";
+import { GrMail } from "react-icons/gr";
+import { MdArrowForward, MdCall, MdOutlinePermContactCalendar } from "react-icons/md";
+import { RiProjectorLine, RiServiceLine } from "react-icons/ri";
+import { TbSmartHome } from "react-icons/tb";
 
 export const content = {
   nav: [
@@ -176,11 +175,11 @@ export const content = {
         image: project5,
         link: 'https://doctors-help-protal-client.vercel.app/',
       },
-      {
-        title: "Islamic Quiz",
-        image: project6,
-        link: 'https://islamic-quiz-brown.vercel.app/',
-      },
+      // {
+      //   title: "Islamic Quiz",
+      //   image: project6,
+      //   link: 'https://islamic-quiz-brown.vercel.app/',
+      // },
       {
         title: "HaiDoc",
         image: project7,
@@ -197,7 +196,7 @@ export const content = {
         link: 'https://edu-care-three.vercel.app/',
       },
       {
-        title: "Edu Care",
+        title: "Bistro Boss",
         image: project10,
         link: 'https://bistro-boss-client-alpha.vercel.app/',
       },
