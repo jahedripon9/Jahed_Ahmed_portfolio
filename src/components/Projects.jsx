@@ -17,7 +17,7 @@ const Projects = () => {
           <h2 className="title" data-aos="fade-down">
             {Projects.title}
           </h2>
-          <h4 className="subtitle" data-aos="fade-down">
+          <h4 className="subtitle " data-aos="fade-down">
             {Projects.subtitle}
           </h4>
           <br />
@@ -47,7 +47,7 @@ const Projects = () => {
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
                   <a href={content.link} target="_blank" className="self-end">
-                    <button className="font-bold text-gray">
+                    <button className="font-bold text-black border border-blue-400 bg-blue-50 rounded-full py-2 px-3">
                       READ MORE
                     </button>
                   </a>

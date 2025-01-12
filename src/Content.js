@@ -22,6 +22,8 @@ import project10 from "./assets/images/projects/img10.png";
 import project7 from "./assets/images/projects/img7.png";
 import project8 from "./assets/images/projects/img8.png";
 import project9 from "./assets/images/projects/img9.png";
+import project12 from "./assets/images/projects/img12.png";
+import project13 from "./assets/images/projects/img13.png";
 import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -149,6 +151,16 @@ export const content = {
     image: person_project,
     project_content: [
       {
+        title: "FOREVER E-commerce",
+        image: project12,
+        link: 'https://ecommerce-app-frontend-two.vercel.app/',
+      },
+      {
+        title: "MREN - AUTH",
+        image: project13,
+        link: "https://mern-auth-fronend.vercel.app/",
+      },
+      {
         title: "DJI Official Demo Site",
         image: project1,
         link: "https://dji-official-website.web.app/",
@@ -200,6 +212,7 @@ export const content = {
         image: project10,
         link: 'https://bistro-boss-client-alpha.vercel.app/',
       },
+      
     ],
   },
   Testimonials: {
