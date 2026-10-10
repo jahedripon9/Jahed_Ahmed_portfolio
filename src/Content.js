@@ -13,6 +13,7 @@ import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
 import project1 from "./assets/images/projects/img1.png";
+import project11 from "./assets/images/projects/SM.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
 import project4 from "./assets/images/projects/img4.png";
@@ -150,6 +151,11 @@ export const content = {
     subtitle: "MY CREATION",
     image: person_project,
     project_content: [
+      {
+        title: "Social Media Marketplace",
+        image: project11,
+        link: 'https://social-media-marketplace-pearl.vercel.app/',
+      },
       {
         title: "FOREVER E-commerce",
         image: project12,
