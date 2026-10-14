@@ -23,7 +23,7 @@ const Hero = () => {
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-end">
-            <a href="https://drive.google.com/file/d/1gz9fR6KgUgvO8worqFvFtYAK2U3fDnHM/view?usp=sharing" target='_blank'><button className="btn">{hero.btnText}</button></a>
+            <a href="https://drive.google.com/file/d/1a6pZko9V_VWquDYI6bzYz90pa7MVmrnS/view?usp=sharing" target='_blank'><button className="btn">{hero.btnText}</button></a>
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
